@@ -30,6 +30,7 @@
             <label for="email">Função</label>
             <select class="form-control" aria-label="ngSelected demo" required="required"
                     id="idfuncao"name="idfuncao" type="name" required/>
+            
             <option>Selecionar Função...</option>
             <?php foreach ($funcao as $funcao): ?>
             <option value="<?php echo $funcao->idfuncao; ?>"><?php echo $funcao->nomeFuncao; ?></option>
@@ -84,7 +85,7 @@
     </table>
 
     <p></p>
-    <a href="<?php echo base_url() . 'home'; ?>">Voltar</a>
+    <a class="btn btn-primary" href="<?php echo base_url() . 'home'; ?>">Voltar</a>
     </div>
         </div>
     

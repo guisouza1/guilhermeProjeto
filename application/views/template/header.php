@@ -14,6 +14,7 @@ and open the template in the editor.
            
               <link href="<?php echo base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">  
               <link href="<?php echo base_url('assets/css/bootstrap-grid.min.css') ?>" rel="stylesheet">  
+              <link href="<?php echo base_url('assets/css/style.css') ?>" rel="stylesheet">  
               
               <!--Datatable-->
               

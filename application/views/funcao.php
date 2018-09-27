@@ -8,7 +8,7 @@
         <div class="col-xs-10 col-sm-10 col-lg-6">
         <?php
         // put your code here
-        echo $acronico;
+        
         echo "<br>";
     //        echo $completo;
         echo "<p>";
