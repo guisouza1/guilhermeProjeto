@@ -22,7 +22,7 @@
 
         <div class="form-group">
             <label for="user">Usuário</label>
-            <input class="col-sm-6 form-control " id="user" name="user" type="text" required/>
+            <input class="col-sm-6 form-control" id="user" name="user" type="text" required/>
         </div>
         
          <div class="form-group">
