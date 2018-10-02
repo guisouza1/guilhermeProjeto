@@ -27,7 +27,7 @@
         
          <div class="form-group">
             <label for="senha">Senha</label>
-            <input class="col-sm-6 form-control " id="senha" name="senha" type="password" required/>
+            <input class="col-sm-6 form-control " id="senha" name="senha" required placeholder="Minimo 8 caracteres!" minlength="8" type="password" required/>
         </div>
         
          <div class="form-group">
