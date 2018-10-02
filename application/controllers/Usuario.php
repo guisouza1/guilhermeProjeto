@@ -29,6 +29,9 @@ class Usuario extends CI_Controller {
         if ($result == TRUE){
             $this->session->set_flashdata('sucesso', 'msg');
              redirect('usuario');
+        } else{
+            $this->session->set_flashdata('falha', 'msg');
+            redirect('usuario');
         }
         
        

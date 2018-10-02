@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
        
-        <title>Meu Projeto Framework</title>
+<!--        <title>Meu Projeto Framework</title>-->
         
               <!--Bootstrap-->
              <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
