@@ -16,9 +16,12 @@
             </div>
             <p></p>
             <div class="form-group">
-            <input type="hidden" name="idusuario" id="idusuario" value="<?php echo $usuarioEditar[0]->idusuario; ?>">
             <label for="user">Usuário</label>
             <input name="user" type="text" id="user" class="col-sm-3 col-form-label form-control" value="<?php echo $usuarioEditar[0]->user; ?>" required/>
+            </div>
+            <div class="form-group">
+            <label for="senha">Senha</label>
+            <input name="senha" type="password" id="senha" class="col-sm-3 col-form-label form-control"  required/>
             </div>
             
             <div class="form-group">

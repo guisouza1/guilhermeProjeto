@@ -70,7 +70,7 @@
     </table>
 
     <p></p>
-    <a href="<?php echo base_url() . 'home'; ?>">Voltar</a>
+    <a class="btn btn-primary" href="<?php echo base_url() . 'home'; ?>">Voltar</a>
     </div>
         </div>
     
