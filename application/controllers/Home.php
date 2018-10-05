@@ -15,7 +15,7 @@ class Home extends CI_Controller {
 
     public function index() {
         $this->load->view('template/header');
-        $dados['acronico'] = "MPF";
+//        $dados['acronico'] = "MPF";
         $dados['completo'] = "Meu Projeto Framework";
         $dados['contatos'] = $this->contatos->listar();
         $this->load->view('home', $dados);

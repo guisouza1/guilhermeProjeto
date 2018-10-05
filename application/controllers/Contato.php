@@ -6,6 +6,9 @@ class Contato extends CI_Controller {
 
     function __construct() {
         parent::__construct();
+        if(!$this->session->userdata('estou_logado')){
+            redirect('login');
+        }
         $this->load->model('Contatos_model','contatos'); 
         $this->load->model('Funcao_model','funcao'); 
       
